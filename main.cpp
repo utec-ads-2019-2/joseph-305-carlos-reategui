@@ -34,8 +34,6 @@ void consultFromAnswers(int k) {
 int main() {
     int k;
     calculateAnswers();
-    while (cin >> k and k != 0) {
-        consultFromAnswers(k);
-    }
+    while (cin >> k and k != 0) consultFromAnswers(k);
     return EXIT_SUCCESS;
 }
